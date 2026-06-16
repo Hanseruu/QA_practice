@@ -1,0 +1,9 @@
+.first_container {
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary{
+    margin-top: 1rem;
+    color: rgb(2, 210, 210);
+}
+
