@@ -10,9 +10,19 @@
 <body>
     <div class="container" class="first-container">
     <div class="row justify-content-center align-items-center">
+        <form action="submit" id="form">
     <div class="col-md-12"><h3>¿Existe el cliente?</h3></div>
-    <div class="col-md-12"><input type="number" id="input_id" placeholder="Introduce el ID cliente?"></div>
-    <div class="col-md-12"><button id="button_crearOrden" class="btn btn-primary">Crear Orden</button></div>
+    <div class="col"><label for="input_id">Introduce un ID</label></div>
+    <div class="col-md-12"><input type="number" id="input_id" placeholder="Ejemplo: 1001"></div>
+    <div class="col-md-12"><button id="button_crearOrden" action="submit"class="btn btn-primary">Crear Orden</button></div>
+    </form>
+</div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-12">
+            <ul id="lista_ordenes">
+
+            </ul>
+        </div>
     </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
